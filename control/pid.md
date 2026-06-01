@@ -25,6 +25,6 @@ $$\frac{\frac{K}{(Ts+1)s}(K_p+sK_d)}{1+\frac{K}{(Ts+1)s}(K_p+sK_d)}$$
 $$=\frac{K(K_p+sK_d)}{(Ts+1)s+K(K_p+sK_d)}$$
 $$=K\frac{K_ds+K_p}{Ts^2+(1+KK_d)s+KK_p}$$
 
-$(1+KK_d)-4TKK_p\geq 0$でないと不安定なシステムになる  
+$(1+KK_d)^2-4TKK_p\geq 0$でないと不安定なシステムになる  
 
 $K_p=0$だとうまくいく->そんなわけないのでむだ時間の導入($e^{-Ls}$)が必要だった?
